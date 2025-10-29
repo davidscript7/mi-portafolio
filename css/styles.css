@@ -1,0 +1,128 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Sección Sobre Mí */
+#sobre-mi p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Sección Habilidades */
+.skill-item {
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+}
+
+.text-purple {
+    color: #7952b3;
+}
+
+/* Cards de Proyectos */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Botones */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+}
+
+.social-links a {
+    transition: opacity 0.3s ease;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+/* Modal */
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.modal-title {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .skill-item {
+        margin-bottom: 20px;
+    }
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.5s ease-in-out;
+}

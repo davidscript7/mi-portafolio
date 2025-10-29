@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos - Héctor Gallego</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Proyectos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Proyectos -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Mis Proyectos</h1>
+            
+            <div class="row">
+                <!-- Proyecto 1: Infinite Scroll Animation -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-infinity text-primary me-2"></i>
+                                Infinite Scroll - Animation
+                            </h5>
+                            <p class="card-text">
+                                Proyecto de animación con scroll infinito. Implementa efectos visuales 
+                                dinámicos que se activan al hacer scroll, creando una experiencia de 
+                                usuario fluida e interactiva.
+                            </p>
+                            <a href="https://github.com/davidscript7/Infinite-Scroll---Animation.git" 
+                               target="_blank" class="btn btn-outline-dark btn-sm mb-2">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                            <button class="btn btn-primary btn-sm d-block w-100" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#modalVideo1">
+                                <i class="fas fa-play"></i> Ver Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Políticas de Privacidad -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-shield-alt text-success me-2"></i>
+                                Políticas de Privacidad
+                            </h5>
+                            <p class="card-text">
+                                Aplicación web para gestión y visualización de políticas de privacidad. 
+                                Permite a las empresas crear, editar y mostrar sus políticas de manera 
+                                clara y profesional.
+                            </p>
+                            <a href="https://github.com/davidscript7/Proyecto-Pol-ticas-de-Privacidad.git" 
+                               target="_blank" class="btn btn-outline-dark btn-sm mb-2">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                            <button class="btn btn-primary btn-sm d-block w-100" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#modalVideo2">
+                                <i class="fas fa-play"></i> Ver Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Movie App -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-film text-danger me-2"></i>
+                                Movie App
+                            </h5>
+                            <p class="card-text">
+                                Aplicación web para búsqueda y visualización de películas. Utiliza APIs 
+                                para obtener información actualizada de películas, incluyendo sinopsis, 
+                                calificaciones y tráilers.
+                            </p>
+                            <a href="https://github.com/davidscript7/movie-app.git" 
+                               target="_blank" class="btn btn-outline-dark btn-sm mb-2">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                            <button class="btn btn-primary btn-sm d-block w-100" 
+                                    data-bs-toggle="modal" 
+                                    data-bs-target="#modalVideo3">
+                                <i class="fas fa-play"></i> Ver Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Video 1 -->
+    <div class="modal fade" id="modalVideo1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Video del Proyecto: Infinite Scroll Animation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                                title="YouTube video" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Video 2 -->
+    <div class="modal fade" id="modalVideo2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Video del Proyecto: Políticas de Privacidad</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                                title="YouTube video" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Video 3 -->
+    <div class="modal fade" id="modalVideo3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Video del Proyecto: Movie App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                                title="YouTube video" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Héctor Gallego. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
